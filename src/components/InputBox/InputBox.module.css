@@ -1,0 +1,55 @@
+.formInput {
+   display: flex;
+   flex-direction: column;
+   margin-top: 1.2rem;
+}
+
+.formLabel {
+   font-family: 'Lato', sans-serif;
+   font-size: 1rem;
+   font-weight: 700;
+   color: #333;
+}
+
+.inputField {
+   font-family: 'Lato', sans-serif;
+   font-size: 1rem;
+   padding-inline: 0.5rem;
+   padding-block: 5px;
+   border: 1.5px solid #808080;
+   border-radius: 5px;
+   outline: none;
+   width: 100%;
+   background-color: #fff;
+   margin: auto;
+   color: #333;
+   margin-top: 0.8rem;
+   height: 2rem;
+}
+
+.inputField:focus {
+   border: 2px solid #333;
+}
+
+.formLabel > span {
+   color: #f44336;
+}
+
+.passField {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: fit-content;
+   position: relative;
+}
+
+.passField > .inputField {
+   margin-top: 0.8rem;
+   padding-right: 2.2rem;
+}
+
+.eyeIcon {
+   position: absolute;
+   right: 0rem;
+   top: 20%;
+}

@@ -1,0 +1,97 @@
+.card {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   width: 50vw;
+   padding: 3rem 5rem;
+}
+.formTitleBox {
+   text-align: center;
+}
+
+.formTitle {
+   font-size: 2rem;
+   font-weight: 700;
+}
+
+.formSubTitle {
+   font-size: 1rem;
+   font-weight: 600;
+   margin-top: 0.5rem;
+   color: #808080;
+}
+
+.form {
+   margin: auto;
+   margin-top: 2rem;
+   width: 75%;
+}
+
+.recaptchaBox {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 3rem;
+}
+
+.fgtpwdText {
+   color: #808080;
+   font-size: 0.8rem;
+   font-weight: 600;
+   font-family: 'Lato', sans-serif;
+   float: right;
+   margin-top: 0.5rem;
+}
+
+.fgtpwdText:hover {
+   color: #333;
+   cursor: pointer;
+   text-decoration: underline;
+}
+
+.submitButton {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.formEndTitle {
+   font-family: 'Lato', sans-serif;
+   font-size: 0.8rem;
+   font-weight: 600;
+   color: #808080;
+   text-align: center;
+   margin-top: 1rem;
+}
+
+.formEndTitle > span {
+   color: #333;
+   font-weight: 600;
+   cursor: pointer;
+}
+
+.formEndTitle > span:hover {
+   text-decoration: underline;
+}
+
+.submitButtonBox {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2rem;
+}
+
+.loginButton {
+   background-color: #e91e63 !important;
+   width: 100%;
+   height: 2rem;
+   border-radius: 0.5rem;
+   border: none;
+   font-weight: 600;
+   font-family: 'Lato', sans-serif !important;
+   text-transform: capitalize !important;
+}

@@ -1,0 +1,74 @@
+.card {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   width: 50vw;
+   padding: 3rem 5rem;
+}
+
+.formTitleBox {
+   text-align: center;
+}
+
+.formTitle {
+   font-size: 2rem;
+   font-weight: 700;
+}
+
+.formSubTitle {
+   font-size: 1rem;
+   font-weight: 600;
+   margin-top: 0.5rem;
+   color: #808080;
+}
+
+.otpForm {
+   font-family: 'Lato';
+   font-weight: 500;
+}
+
+.otp {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2rem;
+}
+
+.inputStyle {
+   font-size: 2.5rem;
+   margin: 0.5rem;
+   text-align: center;
+}
+
+.timerContainer {
+   margin-block: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0.5rem;
+   font-size: 1.2rem;
+}
+
+.timerContainer > span {
+   font-size: 1.6rem;
+   font-weight: 600;
+   color: #e91e63;
+}
+
+.reOtpContainer {
+   margin: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0.5rem;
+   font-size: 1.2rem;
+   color: #808080;
+}
+
+.reOtpContainer > span {
+   font-weight: 600;
+   color: #333;
+   cursor: pointer;
+}
