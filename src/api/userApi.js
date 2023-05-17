@@ -21,13 +21,14 @@ export const getUser = async () => {
    }
 };
 
-export const registerUser = async ({ email, password }) => {
+export const registerUser = async ({ email, password, recaptchaToken }) => {
    try {
       let {
          data: { message, user_id, isEmailVerified },
       } = await api.post(`${route}/register`, {
          email: email,
          password: password,
+         recaptchaToken: recaptchaToken,
       });
 
       return { result: true, msg: message, user_id, isEmailVerified };
@@ -37,13 +38,14 @@ export const registerUser = async ({ email, password }) => {
    }
 };
 
-export const authenticateUser = async ({ email, password }) => {
+export const authenticateUser = async ({ email, password, recaptchaToken }) => {
    try {
       let {
          data: { message, user_id, isEmailVerified },
       } = await api.post(`${route}/authenticate`, {
          email: email,
          password: password,
+         recaptchaToken: recaptchaToken,
       });
 
       return { result: true, msg: message, user_id, isEmailVerified };

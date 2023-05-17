@@ -89,7 +89,7 @@ function Login() {
             )}
 
             <div className={styles.recaptchaBox}>
-               <ReCAPTCHA onLoad={() => setLoader(false)} sitekey="6Le3KRgmAAAAABbr_FAb9KMrIMYBALnBVGupxqJj" ref={captchaRef} />
+               <ReCAPTCHA onLoad={() => setLoader(false)} sitekey="6LfsvhkmAAAAAG2jeycX31lanoJtDfvyWOkkgN_u" ref={captchaRef} />
             </div>
 
             <div className={styles.submitButtonBox}>
