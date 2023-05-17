@@ -158,6 +158,7 @@ export const AuthProvider = ({ children }) => {
 
       if (result) {
          toast.success(msg);
+         sessionStorage.clear();
          navigate('/login');
       } else {
          toast.error(msg);
