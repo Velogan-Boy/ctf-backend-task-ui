@@ -95,9 +95,7 @@ const OTP = () => {
       }
    }, [otp]);
 
-   useEffect(() => {
-      clickedRegenerateOtp();
-   }, []);
+ 
 
    // const handleRegenerateOtp = async () => {
    //    setLoader(true);

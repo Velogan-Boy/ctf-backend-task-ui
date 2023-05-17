@@ -11,7 +11,7 @@ import styles from './Login.module.css';
 
 function Login() {
    const [isSignup, setIsSignup] = useState(false);
-   const { handleRegister, handleLogin, isAuthenticated } = useContext(AuthContext);
+   const { handleRegister, handleLogin, isAuthenticated , setLoader} = useContext(AuthContext);
    const navigate = useNavigate();
    const captchaRef = useRef(null);
 
@@ -89,7 +89,7 @@ function Login() {
             )}
 
             <div className={styles.recaptchaBox}>
-               <ReCAPTCHA sitekey="6Le3KRgmAAAAABbr_FAb9KMrIMYBALnBVGupxqJj" ref={captchaRef} />
+               <ReCAPTCHA onLoad={() => setLoader(false)} sitekey="6Le3KRgmAAAAABbr_FAb9KMrIMYBALnBVGupxqJj" ref={captchaRef} />
             </div>
 
             <div className={styles.submitButtonBox}>

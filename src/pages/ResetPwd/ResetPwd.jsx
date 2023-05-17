@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useContext, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Chip, Divider, Paper, Input, Button, Box } from '@mui/material';
-import ReCAPTCHA from 'react-google-recaptcha';
 
 import InputBox from '../../components/InputBox/InputBox';
 
